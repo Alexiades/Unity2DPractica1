@@ -9,7 +9,7 @@ Crear una carpeta Sprites y dentro una carpeta Zombies y otra Goblin.
 Importar las imágenes como los nuevos assets en el proyecto. Las animaciones de cada zombie puede estar organizadas en subcarpetas.
 
 
-![til](https://github.com/Alexiades/UnityPractica2/blob/main/screeshot/Punto1.gif)
+![til](https://github.com/Alexiades/Unity2DPractica1/blob/main/screeshot/Punto1.gif)
 
 **Descripción: Como se puede ver en la imagen he organizado los zombis en funcion de la acción que realiza en sus carpetas correspondientes.
 En cuanto al goblin he sacado el moviento atacar del tile para luego añadirlo a la animación de ataque.**
@@ -23,7 +23,7 @@ El suelo se considera en la y = 0
 ##SpriteRenderer spriteRenderer;
 ##spriteRenderer.flipX
 
-![til](https://github.com/Alexiades/UnityPractica2/blob/main/screeshot/Punto2.gif)
+![til](https://github.com/Alexiades/Unity2DPractica1/blob/main/screeshot/Punto2.gif)
 
 **Descripción: Como se pude ver en la imagen el zombie se mueve de forma fluida por la pantalla y realiza el flip. Tambien añadi la opcion Contraints
 z a true para que se mantenga equilibrado el zombie. ** 
@@ -33,7 +33,7 @@ Si no se implementa adecuadamente el zombie volará. Se debe controlar si está 
 Por otra parte, si se pulsa la tecla del salto, y no está saltando aplicar una fuerza vertical.
 Activar un flagSalto para saber que ya saltó. Se puede comprobar si está en el suelo recuperando el gameobject del objeto Collision en el evento OnCollision2D.
 
-![til](https://github.com/Alexiades/UnityPractica2/blob/main/screeshot/Punto2.gif)
+![til](https://github.com/Alexiades/Unity2DPractica1/blob/main/screeshot/Punto3.gif)
 
 **Descripcion: En la siguiente captura quiero mostrar como se activa la variable Is Jumping para indicar cuando el zombie esta en el aire y cuando 
 toca tierra se activa la varable a true. ** 
@@ -51,7 +51,7 @@ animator.SetBool("isWalking", true);
 
 Agregar un sprite zombie, con un collider2D, y crear un script, en el que el zombie, al colisionar con él cambie la animación a Dead.
 
-![til](https://github.com/Alexiades/UnityPractica2/blob/main/screeshot/Punto3.gif)
+![til](https://github.com/Alexiades/Unity2DPractica1/blob/main/screeshot/Punto4.gif)
 
 **Descripcion: Vemos con el zombie al tropezar con la piedra muere.Esto es posble a los colaiders. Al principio me costo debido a que tenia 
 que añadir en el animator la animacion Dead despues de la Walk no desde la Idel** 
@@ -59,6 +59,6 @@ que añadir en el animator la animacion Dead despues de la Walk no desde la Idel
 Crear las animaciones de Goblin. Añadir un script al zombie, para que al colisionar con Goblin, Goblin active la animación de atacar.
 
 
-![til](https://github.com/Alexiades/UnityPractica2/blob/main/screeshot/Punto3.gif)
+![til](https://github.com/Alexiades/Unity2DPractica1/blob/main/screeshot/Punto5.gif)
 
 **Descripcion: Vemos como el zombie muere al entrar en contacto con el gobling que detecta que le ha tocado y le ataca.** 
