@@ -9,7 +9,7 @@ Crear una carpeta Sprites y dentro una carpeta Zombies y otra Goblin.
 Importar las imágenes como los nuevos assets en el proyecto. Las animaciones de cada zombie puede estar organizadas en subcarpetas.
 
 
-![til](https://github.com/Alexiades/Unity2DPractica1/blob/main/screeshot/Punto1.gif)
+![til](https://github.com/Alexiades/Unity2DPractica1/tree/main/ScreenShots/Punto1.gif)
 
 **Descripción: Como se puede ver en la imagen he organizado los zombis en funcion de la acción que realiza en sus carpetas correspondientes.
 En cuanto al goblin he sacado el moviento atacar del tile para luego añadirlo a la animación de ataque.**
